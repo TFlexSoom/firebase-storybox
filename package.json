@@ -1,0 +1,36 @@
+{
+  "name": "firebase-storybox",
+  "version": "1.0.0",
+  "description": "A Firebase Helper Library To Create Rooms With Firebase Realtime Database",
+  "main": "index.js",
+  "scripts": {
+    "start": "firebase emulators:start --only database & node index.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TFlexSoom/firebase-storybox.git"
+  },
+  "keywords": [
+    "firebase",
+    "crypto",
+    "security",
+    "gamedev",
+    "game",
+    "videogame",
+    "realtime-database",
+    "database"
+  ],
+  "author": "Tristan Hilbert aka TFlexSoom",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TFlexSoom/firebase-storybox/issues"
+  },
+  "homepage": "https://github.com/TFlexSoom/firebase-storybox#readme",
+  "dependencies": {
+    "firebase": "^7.23.0"
+  },
+  "devDependencies": {
+    "jest": "^26.5.2"
+  }
+}
